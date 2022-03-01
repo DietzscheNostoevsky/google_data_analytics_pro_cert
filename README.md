@@ -28,6 +28,8 @@
     
     Time : 20 hours
 
+    Done 
+
 ### C2 : Ask Questions to Make Data-Driven Decisions
 
     Link : https://www.coursera.org/learn/ask-questions-make-decisions?specialization=google-data-analytics
