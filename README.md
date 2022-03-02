@@ -36,6 +36,8 @@
 
     Time : 18 hours
 
+    Done
+
 ### C3 : Prepare Data for Exploration
 
     Link : https://www.coursera.org/learn/data-preparation?specialization=google-data-analytics
