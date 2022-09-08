@@ -8,3 +8,6 @@ employee <- data.frame(id, name, job_title)
 print(employee)
 
 separate(employee , name , c("first_name" , "last_name") , sep = " ")
+
+view(penguins)
+penguins %>% mutate(body_mass_kg = body_mass_g/1000 )
