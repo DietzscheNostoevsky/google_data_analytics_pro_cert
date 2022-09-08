@@ -5,3 +5,6 @@ name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", 
 job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
 
 employee <- data.frame(id, name, job_title)
+print(employee)
+
+separate(employee , name , c("first_name" , "last_name") , sep = " ")
