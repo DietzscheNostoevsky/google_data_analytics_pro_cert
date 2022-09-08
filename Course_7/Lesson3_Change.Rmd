@@ -144,7 +144,7 @@ This is a common error that R users encounter. To correct this code chunk, you w
 Now, let's say you just want to know what the average lead time for booking is because your boss asks you how early you should run promotions for hotel rooms. You can use the `mean()` function to answer that question since the average of a set of number is also the mean of the set of numbers:
 
 ```{r mean}
-mean(hotel_bookings$lead_time)
+mean(hotel_bookings$lead_time) 
 ```
 
 You should get the same answer even if you use the v2 dataset that included the `arrange()` function. This is because the `arrange()` function doesn't change the values in the dataset; it just re-arranges them.
