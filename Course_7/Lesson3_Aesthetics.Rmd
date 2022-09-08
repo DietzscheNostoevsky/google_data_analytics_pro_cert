@@ -116,4 +116,4 @@ Run the code chunk below to find out; notice how the ~ character is being used b
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel)) +
   facet_wrap(~deposit_type~market_segment)
-```
+``` 
