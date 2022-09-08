@@ -10,3 +10,5 @@ ggplot(quartet, aes(x,y)) + geom_point() + geom_smooth(method=lm, se= FALSE) + f
 
 install.packages("datasauRus")
 library(datasauRus)
+
+ggplot(datasaurus_dozen, aes(x=x, y=y, color=dataset)) + geom_point() + theme_void() + theme(legend.position = "none") + facet_wrap(~dataset)
